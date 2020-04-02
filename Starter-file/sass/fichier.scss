@@ -1,4 +1,6 @@
-body{
-background-color: red($color: #000000);
 
-}
+@import "header";
+@import "symptomes";
+@import "footer";
+@import "recommand";
+@import "config";

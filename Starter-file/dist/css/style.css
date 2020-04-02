@@ -1,2 +1,76 @@
 body {
-  background-color: 0; }
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
+  line-height: 1.6; }
+
+.header {
+  width: 100%; }
+  .header img {
+    margin-left: 16px;
+    margin-top: 5px;
+    height: 60px; }
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+    background: url(../../../Design/Assets/png/Barre.png); }
+    .header__nav ul {
+      display: flex;
+      justify-content: space-between; }
+      .header__nav ul li {
+        margin-right: 60px; }
+        .header__nav ul li a {
+          padding: 8px;
+          font-size: 22px;
+          color: black;
+          color: #1078AD; }
+        .header__nav ul li .arabic {
+          border-radius: 10px; }
+  .header__barre {
+    background-color: #e9c824;
+    padding: 1px;
+    text-align: center; }
+  .header__color {
+    color: #1078AD;
+    top: 40%; }
+  .header__controle img {
+    width: 580px;
+    height: 400px; }
+  .header h2 {
+    color: #1078AD;
+    margin-left: 52%;
+    margin-top: -30%;
+    text-align: center; }
+  .header__icone img {
+    margin-left: 73%;
+    margin-top: -22%;
+    width: 77px;
+    height: 59px; }
+  .header__part p {
+    margin-left: 53%;
+    margin-top: 1%;
+    text-align: center; }
+    .header__part p .bottom {
+      background-color: #1078AD;
+      border: none;
+      color: white;
+      padding: 4px 200px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 14px 5px;
+      border-radius: 5px; }
+
+* {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.symptomes h1 {
+  text-align: center; }
+
+* {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }

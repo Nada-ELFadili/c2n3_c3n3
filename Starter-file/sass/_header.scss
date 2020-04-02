@@ -1,0 +1,114 @@
+
+body{
+    margin:0px;
+    padding: 0px;
+font-size: 1rem;
+line-height: 1.6;
+
+
+}
+.header{
+width: 100%;
+img{
+    margin-left: 16px;
+    margin-top: 5px;
+    height: 60px;
+}
+
+    &__nav{
+    
+    display: flex;
+    justify-content: space-between;
+    background:url(../../../Design/Assets/png/Barre.png);
+    
+    
+    
+        ul{
+            display: flex;
+            justify-content: space-between;
+            li{
+                margin-right: 60px;
+              
+            
+            a {
+            padding: 8px;
+            font-size: 22px;
+            color: black;
+            color: #1078AD;
+ 
+            }
+            .arabic{
+                border-radius: 10px;
+
+            }
+
+            }
+        }
+    }
+
+    &__barre{
+
+        background-color: rgb(233, 200, 36);
+        padding: 1px;
+        text-align: center;
+        
+
+    }
+        &__color{
+
+        color: #1078AD;
+         top:40%;
+}
+        &__controle{
+         img{
+        width: 580px;
+        height: 400px;
+ }
+}   
+        h2{
+        color: #1078AD;
+         margin-left: 52%;
+         margin-top: -30%;
+         text-align: center;
+
+         }
+
+            &__icone{
+                img{
+                margin-left: 73%;
+                margin-top: -22%;
+                width: 77px;
+                height:59px ;
+                }
+    }       
+             &__part{
+                 p{
+                  margin-left: 53%;
+                  margin-top: 1%;
+                  text-align: center;
+            .bottom{
+            background-color: #1078AD; 
+            border: none;
+            color: white;
+            padding: 4px 200px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 14px 5px;
+            border-radius: 5px
+            
+      
+
+        }
+    }
+     
+       }
+       
+}
+
+
+	        
+
+
+
