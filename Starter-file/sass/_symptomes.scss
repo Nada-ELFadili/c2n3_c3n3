@@ -1,11 +1,74 @@
-@import "config";
+
+body{
+    margin:0px;
+    padding: 0px;
+font-size: 1rem;
+line-height: 1.6;
+
+}
 
 .symptomes{
 
-h1{
-text-align: center;
+&__line{
+    h1{
+    margin-left: 2%;
+    margin-top: 6%;   
+    text-align: center;
+    color: #1078AD;
+         
+        }
 
 }
+
+&__First{
+ 
+ .Fiévre{
+    margin-left: 38%;
+    margin-top: 3%; 
+    
+ }
+  
+.throwup{
+    margin-left: 13%;
+    margin-top: 3%; 
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+&__Second{
+
+
+.headache{
+    margin-left: 34%;
+    margin-top: 3%; 
+    
+}
+
+.cough{
+    margin-left: 9%;
+    margin-top: 3%;
+
+}
+  
+}
+
+
+
+
+
+
+
 
 
 }

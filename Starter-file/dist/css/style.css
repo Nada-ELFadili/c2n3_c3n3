@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0px;
   padding: 0px;
@@ -49,7 +50,8 @@ body {
   .header__part p {
     margin-left: 53%;
     margin-top: 1%;
-    text-align: center; }
+    text-align: center;
+    color: #7F7F7F; }
     .header__part p .bottom {
       background-color: #1078AD;
       border: none;
@@ -62,13 +64,33 @@ body {
       margin: 14px 5px;
       border-radius: 5px; }
 
-* {
-  text-decoration: none;
-  list-style-type: none;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
+  line-height: 1.6; }
 
-.symptomes h1 {
-  text-align: center; }
+.symptomes__line h1 {
+  margin-left: 2%;
+  margin-top: 6%;
+  text-align: center;
+  color: #1078AD; }
+
+.symptomes__First .Fiévre {
+  margin-left: 38%;
+  margin-top: 3%; }
+
+.symptomes__First .throwup {
+  margin-left: 13%;
+  margin-top: 3%; }
+
+.symptomes__Second .headache {
+  margin-left: 34%;
+  margin-top: 3%; }
+
+.symptomes__Second .cough {
+  margin-left: 9%;
+  margin-top: 3%; }
 
 * {
   text-decoration: none;
