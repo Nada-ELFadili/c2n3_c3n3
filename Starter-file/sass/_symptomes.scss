@@ -8,68 +8,40 @@ line-height: 1.6;
 }
 
 .symptomes{
-
-&__line{
-    h1{
-    margin-left: 2%;
-    margin-top: 6%;   
+    width: 100%;
     text-align: center;
-    color: #1078AD;
-         
+    margin-top: 5%;
+    padding-bottom: 5%;
+    h1{
+        color:#1078AD;
+        font-size: 32px;
+    }
+    &__info{
+        width: 50%;
+        margin:0 auto;
+        display: flex;
+        justify-content: space-between;
+        .symptomes__icon{
+            margin-top: 10%;
+            width: 100%;
+            line-height: 30px;
+            font-size: 14px;
+            .covid{
+                margin-top: 25px;  
+                
+            }
+            .symptomes__img{
+                h4{
+                    padding-top: 25px;
+                    width: 60%;
+                    margin: 0 auto;
+                    font-size: 23px;
+
+                }
+               
+
+            }
+
         }
-
-}
-
-&__First{
- 
- .Fiévre{
-    margin-left: 38%;
-    margin-top: 3%; 
-    
- }
-  
-.throwup{
-    margin-left: 13%;
-    margin-top: 3%; 
-  }
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-&__Second{
-
-
-.headache{
-    margin-left: 34%;
-    margin-top: 3%; 
-    
-}
-
-.cough{
-    margin-left: 9%;
-    margin-top: 3%;
-
-    
-}
-  
-}
-
-
-
-
-
-
-
-
-
+    }
 }

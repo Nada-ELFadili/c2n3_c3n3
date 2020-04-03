@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   margin: 0px;
   padding: 0px;
@@ -70,27 +69,31 @@ body {
   font-size: 1rem;
   line-height: 1.6; }
 
-.symptomes__line h1 {
-  margin-left: 2%;
-  margin-top: 6%;
+.symptomes {
+  width: 100%;
   text-align: center;
-  color: #1078AD; }
-
-.symptomes__First .Fiévre {
-  margin-left: 38%;
-  margin-top: 3%; }
-
-.symptomes__First .throwup {
-  margin-left: 13%;
-  margin-top: 3%; }
-
-.symptomes__Second .headache {
-  margin-left: 34%;
-  margin-top: 3%; }
-
-.symptomes__Second .cough {
-  margin-left: 9%;
-  margin-top: 3%; }
+  margin-top: 5%;
+  padding-bottom: 5%; }
+  .symptomes h1 {
+    color: #1078AD;
+    font-size: 32px; }
+  .symptomes__info {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    .symptomes__info .symptomes__icon {
+      margin-top: 10%;
+      width: 100%;
+      line-height: 30px;
+      font-size: 14px; }
+      .symptomes__info .symptomes__icon .covid {
+        margin-top: 25px; }
+      .symptomes__info .symptomes__icon .symptomes__img h4 {
+        padding-top: 25px;
+        width: 60%;
+        margin: 0 auto;
+        font-size: 23px; }
 
 * {
   text-decoration: none;
