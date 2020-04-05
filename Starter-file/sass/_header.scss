@@ -4,7 +4,7 @@ body{
     padding: 0px;
 font-size: 1rem;
 line-height: 1.6;
-
+font-family: 'Cairo', sans-serif;
 
 }
 .header{
@@ -26,20 +26,27 @@ img{
         ul{
             display: flex;
             justify-content: space-between;
+            font-weight: bolder;
+            font-weight: 1.5rem;
+            margin-right: 2rem;
             li{
-                margin-right: 60px;
-              
-            
+                margin-right: 43px;
             a {
             padding: 8px;
             font-size: 22px;
             color: black;
-            color: #1078AD;
+            color:#1078AD;
+
  
             }
-            .arabic{
+            &:nth-child(3){
+                border: 1.5px solid black;
                 border-radius: 10px;
-
+                padding: 0.5 2em;
+                &:hover{
+                    background-color: rgb(233, 200, 36);
+                    color: white;
+                }
             }
 
             }
@@ -86,7 +93,7 @@ img{
                   margin-left: 53%;
                   margin-top: 1%;
                   text-align: center;
-                  color: #7F7F7F;
+                 color:#7F7F7F;
             .bottom{
             background-color: #1078AD; 
             border: none;
@@ -99,7 +106,6 @@ img{
             margin: 14px 5px;
             border-radius: 5px
             
-      
 
         }
     }

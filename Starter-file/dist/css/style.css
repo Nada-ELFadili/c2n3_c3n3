@@ -2,7 +2,8 @@ body {
   margin: 0px;
   padding: 0px;
   font-size: 1rem;
-  line-height: 1.6; }
+  line-height: 1.6;
+  font-family: 'Cairo', sans-serif; }
 
 .header {
   width: 100%; }
@@ -16,16 +17,24 @@ body {
     background: url(../../../Design/Assets/png/Barre.png); }
     .header__nav ul {
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-between;
+      font-weight: bolder;
+      font-weight: 1.5rem;
+      margin-right: 2rem; }
       .header__nav ul li {
-        margin-right: 60px; }
+        margin-right: 43px; }
         .header__nav ul li a {
           padding: 8px;
           font-size: 22px;
           color: black;
           color: #1078AD; }
-        .header__nav ul li .arabic {
-          border-radius: 10px; }
+        .header__nav ul li:nth-child(3) {
+          border: 1.5px solid black;
+          border-radius: 10px;
+          padding: 0.5 2em; }
+          .header__nav ul li:nth-child(3):hover {
+            background-color: #e9c824;
+            color: white; }
   .header__barre {
     background-color: #e9c824;
     padding: 1px;
@@ -67,7 +76,8 @@ body {
   margin: 0px;
   padding: 0px;
   font-size: 1rem;
-  line-height: 1.6; }
+  line-height: 1.6;
+  font-family: 'Cairo', sans-serif; }
 
 .symptomes {
   width: 100%;
@@ -95,7 +105,84 @@ body {
         margin: 0 auto;
         font-size: 23px; }
 
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
+  font-family: 'Cairo', sans-serif; }
+
+.recommand {
+  background-color: #1078AD;
+  text-align: center; }
+  .recommand h1 {
+    color: #fff;
+    padding: 25px; }
+  .recommand__covid {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto; }
+  .recommand__text {
+    margin-left: 4%; }
+    .recommand__text h3 {
+      color: #fff;
+      text-align: left;
+      font-size: 20px; }
+    .recommand__text h4 {
+      font-weight: bold;
+      color: #fff;
+      text-align: left;
+      font-size: 20px; }
+    .recommand__text h3 {
+      color: black; }
+  .recommand__contact {
+    text-align: center;
+    align-items: center;
+    line-height: 40%; }
+    .recommand__contact h2 {
+      font-weight: bold;
+      color: #F4CF1B; }
+    .recommand__contact button {
+      margin: 20px 0px;
+      width: 150px;
+      height: 50px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+      color: #1078AD;
+      background-color: #F4CF1B;
+      border: 0px;
+      border-radius: 3px; }
+    .recommand__contact a {
+      color: #fff;
+      border-bottom: 2px solid #F4CF1B; }
+  .recommand__part {
+    width: 100%;
+    height: 250px;
+    background-color: #96C5DC;
+    text-align: center; }
+    .recommand__part h2 {
+      color: #1078AD;
+      padding: 20px; }
+    .recommand__part button {
+      background-color: #1078AD;
+      border: none;
+      color: white;
+      padding: 4px 200px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 14px 5px;
+      border-radius: 5px; }
+  .recommand__icone img {
+    text-align: center;
+    width: 77px;
+    height: 59px; }
+
 * {
   text-decoration: none;
   list-style-type: none;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Cairo', sans-serif; }
