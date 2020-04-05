@@ -86,7 +86,7 @@ font-family: 'Cairo', sans-serif;
           padding: 20px;
          }
        
-        button {
+        .button {
             background-color: #1078AD; 
             border: none;
             color: white;
@@ -96,7 +96,10 @@ font-family: 'Cairo', sans-serif;
             display: inline-block;
             font-size: 20px;
             margin: 14px 5px;
-            border-radius: 5px}
+            border-radius: 5px
+           
+        }
+
           
 
         }
@@ -108,6 +111,6 @@ font-family: 'Cairo', sans-serif;
         }
     }
 
-    
+
 } 
 

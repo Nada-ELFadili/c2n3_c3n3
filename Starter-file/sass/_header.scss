@@ -21,7 +21,11 @@ img{
     justify-content: space-between;
     background:url(../../../Design/Assets/png/Barre.png);
     
-    
+    .header__logo{
+        color: gold;
+       margin-top: 10px;
+       padding-left: -3px;
+    }
     
         ul{
             display: flex;
@@ -31,10 +35,11 @@ img{
             margin-right: 2rem;
             li{
                 margin-right: 43px;
+                
             a {
             padding: 8px;
             font-size: 22px;
-            color: black;
+            
             color:#1078AD;
 
  
@@ -43,10 +48,15 @@ img{
                 border: 1.5px solid black;
                 border-radius: 10px;
                 padding: 0.5 2em;
+                
+                
                 &:hover{
                     background-color: rgb(233, 200, 36);
-                    color: white;
-                }
+                        color: white;
+                        
+                    } 
+
+                   
             }
 
             }

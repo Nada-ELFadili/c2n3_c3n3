@@ -58,12 +58,21 @@ font-family: 'Cairo', sans-serif;
     border: 1pxsolid#1078AD;
     font-weight: bolder;
     cursor: pointer;
-     
+      &:nth-child(1){
+
+        border: 1.5px solid black;
+                border-radius: 10px;
+                padding: 0.5 2em;
+                &:hover{
+                    background-color: rgb(233, 200, 36);
+                    color: white;
+                    } 
+      }
     .footer__glob {
     color:#F4CF1B;
     
-     
                 }
+                
                 }
      
     .footer__left2 {

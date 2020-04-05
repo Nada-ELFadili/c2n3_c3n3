@@ -15,6 +15,10 @@ body {
     display: flex;
     justify-content: space-between;
     background: url(../../../Design/Assets/png/Barre.png); }
+    .header__nav .header__logo {
+      color: gold;
+      margin-top: 10px;
+      padding-left: -3px; }
     .header__nav ul {
       display: flex;
       justify-content: space-between;
@@ -26,7 +30,6 @@ body {
         .header__nav ul li a {
           padding: 8px;
           font-size: 22px;
-          color: black;
           color: #1078AD; }
         .header__nav ul li:nth-child(3) {
           border: 1.5px solid black;
@@ -147,6 +150,13 @@ body {
       border: 1pxsolid #1078AD;
       font-weight: bolder;
       cursor: pointer; }
+      .footer__all .footer__left .footer__left1:nth-child(1) {
+        border: 1.5px solid black;
+        border-radius: 10px;
+        padding: 0.5 2em; }
+        .footer__all .footer__left .footer__left1:nth-child(1):hover {
+          background-color: #e9c824;
+          color: white; }
       .footer__all .footer__left .footer__left1 .footer__glob {
         color: #F4CF1B; }
     .footer__all .footer__left .footer__left2 {
@@ -222,7 +232,7 @@ body {
     .recommand__part h2 {
       color: #1078AD;
       padding: 20px; }
-    .recommand__part button {
+    .recommand__part .button {
       background-color: #1078AD;
       border: none;
       color: white;
