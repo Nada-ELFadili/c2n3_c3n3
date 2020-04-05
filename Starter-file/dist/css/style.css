@@ -57,7 +57,7 @@ body {
     margin-left: 73%;
     margin-top: -22%;
     width: 77px;
-    height: 59px; }
+    height: 58px; }
   .header__part p {
     margin-left: 53%;
     margin-top: 1%;
@@ -253,3 +253,29 @@ body {
   list-style-type: none;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-family: 'Cairo', sans-serif; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: 'Cairo', sans-serif; }
+
+.Protection h1 {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 31%; }
+
+.Protection .protection__images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 80vw;
+  text-align: center; }
+  .Protection .protection__images p {
+    text-align: center;
+    font-size: 17px;
+    color: #1A519E; }
+  .Protection .protection__images__part1 {
+    text-align: center; }

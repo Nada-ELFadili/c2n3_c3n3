@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Cairo', sans-serif; }
+    .Protection{
+
+      h1{
+          text-align: center;
+          margin: 20px auto;
+          max-width: 31%;
+      }
+      .protection__images{
+
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: auto;
+     width: 80vw;
+     text-align: center;
+    p{
+        text-align: center;  
+        font-size: 17px; 
+        color: #1A519E;
+    }
+   &__part1{
+       text-align: center;
+   }
+
+
+   }
+
+
+
+
+
+
+
+    }
+    
