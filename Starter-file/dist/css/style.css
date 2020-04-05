@@ -109,6 +109,63 @@ body {
   margin: 0px;
   padding: 0px;
   font-size: 1rem;
+  line-height: 1.6;
+  font-family: 'Cairo', sans-serif; }
+
+.footer {
+  text-align: center;
+  background-color: white; }
+  .footer__all {
+    display: flex;
+    justify-content: space-around; }
+    .footer__all .footer__bottom h2 {
+      color: #1078AD;
+      font-weight: bold;
+      font-size: 17px;
+      cursor: pointer; }
+    .footer__all .footer__bottom h4 {
+      color: #369D53;
+      font-weight: bolder;
+      font-size: 14px;
+      cursor: pointer; }
+    .footer__all .footer__bottom p {
+      color: black;
+      font-weight: bolder;
+      cursor: pointer; }
+    .footer__all p {
+      width: 30vw;
+      color: #7F7F7F;
+      font-size: 15px;
+      cursor: pointer; }
+    .footer__all .footer__left li {
+      color: black;
+      list-style-type: none; }
+    .footer__all .footer__left .footer__left1 {
+      padding: 0px14px;
+      font-size: 16px;
+      border-radius: 10px;
+      border: 1pxsolid #1078AD;
+      font-weight: bolder;
+      cursor: pointer; }
+      .footer__all .footer__left .footer__left1 .footer__glob {
+        color: #F4CF1B; }
+    .footer__all .footer__left .footer__left2 {
+      font-size: 16px;
+      color: #1078AD;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none; }
+    .footer__all .footer__left .footer__left3 {
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      color: black; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
   font-family: 'Cairo', sans-serif; }
 
 .recommand {
