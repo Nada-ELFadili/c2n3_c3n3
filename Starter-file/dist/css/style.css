@@ -353,7 +353,8 @@ body {
     .Error__part img {
       width: auto;
       height: 247px; }
-    .Error__part button {
+    .Error__part .button {
+      cursor: pointer;
       background-color: #1078AD;
       border: none;
       color: white;

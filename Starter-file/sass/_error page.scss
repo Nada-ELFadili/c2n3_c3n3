@@ -14,9 +14,10 @@ margin-top: 60px;
         img{
             width: auto;
 height: 247px;
-           }
-
-       button{
+        }
+        
+       .button{
+        cursor: pointer; 
         background-color: #1078AD; 
         border: none;
         color: white;
@@ -27,12 +28,13 @@ height: 247px;
         font-size: 20px;
         margin: 0px 5px 15px;
         border-radius: 5px
-
+        
+        
        }
        h1{
         font-size: 35px;
         margin: 20px 5px 15px;
-        
+
        }
     }
 
