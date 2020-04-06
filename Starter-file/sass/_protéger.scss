@@ -6,36 +6,55 @@ body {
     font-family: 'Cairo', sans-serif; }
     .Protection{
 
+      text-align: center;
+      width: 100vw;
+
+      .protection__part4{
+
+        margin:  2% auto;
+    .protection__img{
+       p{ text-align: center;  
+        font-size: 17px; 
+        color: #1A519E;
+    }
+}
+      }
+
       h1{
           text-align: center;
           margin: 20px auto;
           max-width: 31%;
+          color: #1078AD;
       }
       .protection__images{
-
      display: flex;
      justify-content: space-around;
      align-items: center;
-     margin: auto;
-     width: 80vw;
+     margin-left: 6%;
+     width: 80%;
      text-align: center;
     p{
         text-align: center;  
         font-size: 17px; 
         color: #1A519E;
     }
-   &__part1{
+  .protection__part1{
        text-align: center;
+       width: 30%;
    }
-
-
-   }
-
-
-
-
-
-
+}
+     
 
     }
+
+
+
+
+
+
+
+
+
+     
+
     
