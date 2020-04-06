@@ -3,8 +3,36 @@ body {
     padding: 0px;
     font-size: 1rem;
     line-height: 1.6;
-    font-family: 'Cairo', sans-serif; }
+    font-family: 'Cairo', sans-serif; 
+}
+.information{
+.informations{
 
+ display: flex;
+align-items: center;
+justify-content: space-around;
+background-color:#D0E5F0;
 
+&__left{
+ 
+    .informations__title{
+      color: #1078AD;
+      font-weight: bolder;
+    }
 
-    
+    .informations__paragraphe1{
+      color: #1A519E;
+      font-weight: bolder;
+    }
+}
+&__link{
+    color:white;
+    padding: 15px 50px;
+    background-color: #1078AD;
+    border-radius: 5px;
+    font-weight: bolder;
+      }
+
+   }
+
+}

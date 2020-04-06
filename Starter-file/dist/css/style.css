@@ -265,7 +265,7 @@ body {
   text-align: center;
   width: 100vw; }
   .Protection .protection__part4 {
-    margin: 3% auto; }
+    margin: 2% auto; }
     .Protection .protection__part4 .protection__img p {
       text-align: center;
       font-size: 17px;
@@ -296,3 +296,21 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   font-family: 'Cairo', sans-serif; }
+
+.information .informations {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #D0E5F0; }
+  .information .informations__left .informations__title {
+    color: #1078AD;
+    font-weight: bolder; }
+  .information .informations__left .informations__paragraphe1 {
+    color: #1A519E;
+    font-weight: bolder; }
+  .information .informations__link {
+    color: white;
+    padding: 15px 50px;
+    background-color: #1078AD;
+    border-radius: 5px;
+    font-weight: bolder; }
