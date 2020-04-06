@@ -314,3 +314,10 @@ body {
     background-color: #1078AD;
     border-radius: 5px;
     font-weight: bolder; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: 'Cairo', sans-serif; }
