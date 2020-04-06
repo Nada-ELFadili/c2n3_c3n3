@@ -26,7 +26,8 @@ body {
       font-weight: 1.5rem;
       margin-right: 2rem; }
       .header__nav ul li {
-        margin-right: 43px; }
+        margin-right: 43px;
+        color: black; }
         .header__nav ul li a {
           padding: 8px;
           font-size: 22px;
@@ -34,10 +35,12 @@ body {
         .header__nav ul li:nth-child(3) {
           border: 1.5px solid black;
           border-radius: 10px;
-          padding: 0.5 2em; }
+          padding: 0.5px 0.5em 0.2em;
+          color: whitesmoke; }
           .header__nav ul li:nth-child(3):hover {
-            background-color: #e9c824;
-            color: white; }
+            background-color: #e9c824; }
+            .header__nav ul li:nth-child(3):hover .fas {
+              color: white; }
   .header__barre {
     background-color: #e9c824;
     padding: 1px;
@@ -153,10 +156,12 @@ body {
       .footer__all .footer__left .footer__left1:nth-child(1) {
         border: 1.5px solid black;
         border-radius: 10px;
-        padding: 0.5 2em; }
+        padding: 2.5px 0.5em 0.2em; }
         .footer__all .footer__left .footer__left1:nth-child(1):hover {
           background-color: #e9c824;
           color: white; }
+          .footer__all .footer__left .footer__left1:nth-child(1):hover .fas {
+            color: white; }
       .footer__all .footer__left .footer__left1 .footer__glob {
         color: #F4CF1B; }
     .footer__all .footer__left .footer__left2 {
@@ -332,3 +337,33 @@ body {
 .transmission h1 {
   text-align: center;
   color: #1078AD; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: 'Cairo', sans-serif; }
+
+.Error {
+  margin-top: 60px; }
+  .Error__part {
+    text-align: center;
+    color: #1078AD; }
+    .Error__part img {
+      width: auto;
+      height: 247px; }
+    .Error__part button {
+      background-color: #1078AD;
+      border: none;
+      color: white;
+      padding: 4px 66px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 0px 5px 15px;
+      border-radius: 5px; }
+    .Error__part h1 {
+      font-size: 35px;
+      margin: 20px 5px 15px; }

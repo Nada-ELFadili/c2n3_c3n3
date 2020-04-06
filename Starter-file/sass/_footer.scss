@@ -10,7 +10,9 @@ font-family: 'Cairo', sans-serif;
 
     text-align: center;
     background-color: white;
+    
     &__all {
+
     display: flex;
     justify-content: space-around;
      
@@ -62,10 +64,13 @@ font-family: 'Cairo', sans-serif;
 
         border: 1.5px solid black;
                 border-radius: 10px;
-                padding: 0.5 2em;
+                padding: 2.5px 0.5em 0.2em;
                 &:hover{
                     background-color: rgb(233, 200, 36);
                     color: white;
+                    .fas{
+                        color:white;
+                    } 
                     } 
       }
     .footer__glob {

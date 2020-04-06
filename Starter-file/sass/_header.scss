@@ -33,29 +33,37 @@ img{
             font-weight: bolder;
             font-weight: 1.5rem;
             margin-right: 2rem;
+            
             li{
                 margin-right: 43px;
+                color: black;
                 
             a {
             padding: 8px;
             font-size: 22px;
-            
-            color:#1078AD;
 
+            color:#1078AD;
+            
  
             }
             &:nth-child(3){
                 border: 1.5px solid black;
                 border-radius: 10px;
-                padding: 0.5 2em;
+                padding: 0.5px 0.5em 0.2em;
+                color: whitesmoke;
                 
                 
                 &:hover{
                     background-color: rgb(233, 200, 36);
-                        color: white;
                         
+                       .fas{
+                           color:white;
+                       } 
                     } 
                    
+
+
+
             }
 
             }

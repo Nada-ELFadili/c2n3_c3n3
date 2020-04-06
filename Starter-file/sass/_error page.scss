@@ -1,0 +1,40 @@
+body{
+    margin:0px;
+    padding: 0px;
+font-size: 1rem;
+line-height: 1.6;
+font-family: 'Cairo', sans-serif;}
+
+
+.Error{
+margin-top: 60px;
+    &__part{
+        text-align: center;
+         color:#1078AD;
+        img{
+            width: auto;
+height: 247px;
+           }
+
+       button{
+        background-color: #1078AD; 
+        border: none;
+        color: white;
+        padding: 4px 66px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 0px 5px 15px;
+        border-radius: 5px
+
+       }
+       h1{
+        font-size: 35px;
+        margin: 20px 5px 15px;
+       }
+    }
+
+
+}
+
