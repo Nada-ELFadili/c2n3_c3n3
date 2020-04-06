@@ -7,7 +7,28 @@ body {
 
 
     .transmission{
-              
+        .transmission__part{ 
+       display: flex;
+       justify-content: space-around;
+          text-align: center;      
+       color: #1A519E;
+       padding: 15px 138px;
+             }
+
+    h1{
+    text-align: center;
+    color: #1078AD;
+
+    }
+
+
+
+
+
+
+
+
+
 
 
     }
