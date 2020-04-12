@@ -33,16 +33,18 @@ img{
             font-weight: bolder;
             font-weight: 1.5rem;
             margin-right: 2rem;
+             
             
             li{
                 margin-right: 43px;
                 color: black;
                 
+                
             a {
             padding: 8px;
             font-size: 22px;
-
             color:#1078AD;
+               
             
  
             }
@@ -51,14 +53,20 @@ img{
                 border-radius: 10px;
                 padding: 0.5px 0.5em 0.2em;
                 color: whitesmoke;
-                
+                a{
+                    &:hover{
+                        color: white;
+                    }
+
+                }
+               
                 
                 &:hover{
                     background-color: rgb(233, 200, 36);
-                        
-                       .fas{
-                           color:white;
-                       } 
+                    .fas{
+                        color:white;
+                       }  
+                       
                     } 
                    
 
@@ -111,6 +119,7 @@ img{
                   margin-top: 1%;
                   text-align: center;
                  color:#7F7F7F;
+
             .bottom{
             background-color: #1078AD; 
             border: none;
@@ -131,7 +140,18 @@ img{
        
 }
 
+@media only screen and (max-width: 1010px){
 
+.header{
+ img{
+
+
+    
+ }
+}
+   
+
+}
 	        
 
 

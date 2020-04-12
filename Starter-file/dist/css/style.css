@@ -37,6 +37,8 @@ body {
           border-radius: 10px;
           padding: 0.5px 0.5em 0.2em;
           color: whitesmoke; }
+          .header__nav ul li:nth-child(3) a:hover {
+            color: white; }
           .header__nav ul li:nth-child(3):hover {
             background-color: #e9c824; }
             .header__nav ul li:nth-child(3):hover .fas {
@@ -268,7 +270,7 @@ body {
 
 .Protection {
   text-align: center;
-  width: 100vw; }
+  width: 98vw; }
   .Protection .protection__part4 {
     margin: 2% auto; }
     .Protection .protection__part4 .protection__img p {
@@ -351,7 +353,6 @@ body {
     text-align: center;
     color: #1078AD; }
     .Error__part img {
-      width: auto;
       height: 247px; }
     .Error__part .button {
       cursor: pointer;
