@@ -7,6 +7,13 @@ line-height: 1.6;
 font-family: 'Cairo', sans-serif;
 
 }
+:lang(fr)[data-fr] {display: block;}
+    :lang(fr)[data-ar] {display: none;}
+    
+    
+    :lang(ar)[data-ar] {display: block;}
+    :lang(ar)[data-fr] {display: none;}
+    
 .header{
 width: 100%;
 img{
@@ -136,8 +143,12 @@ img{
         }
     }
      
-       }
-       
+     
+}
+  
+
+ 
+
 }
 
 

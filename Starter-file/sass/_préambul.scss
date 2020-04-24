@@ -1,0 +1,68 @@
+
+body{
+    margin:0px;
+    padding: 0px;
+font-size: 1rem;
+line-height: 1.6;
+font-family: 'Cairo', sans-serif;
+
+}
+*{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Cairo', sans-serif;
+    
+
+}
+
+.préambul{
+
+text-align: center;
+margin-top: 5%;
+
+
+&__contenu{
+
+background-color:#96C5DC;
+border-radius: 5px;
+padding-bottom: 80px;
+margin: 10px auto 20px auto;
+width: 84vw;
+
+}
+.préambul__article{
+
+    margin: auto;
+    width: 72vw;
+    
+    
+
+    }
+    .préambule__title{
+        margin: 0;
+        color:#1078AD ;
+        
+        }
+        &__link {
+            text-decoration: none;
+            color: rgb(253, 253, 251);
+            padding: 10px 84px;
+            background-color: #1078AD;
+            border-radius: 4px;
+        }
+   
+
+
+
+
+
+
+
+
+}
+
+
+
+
+

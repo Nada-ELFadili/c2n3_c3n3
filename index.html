@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,18 +10,37 @@
 </head>
 <body>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+$('.button1').click(function(){
+
+var lang = $('html').attr('lang');
+
+if(lang=='fr')$('html').attr('lang','ar');
+if(lang=='ar')$('html').attr('lang','fr');
+
+});
+
+</script>
 
     <section class="HeroHeader">
    <header class="header">
    <nav>
    <div class="header__nav">
        <img src="Design/Assets/png/logo__sante-1.png" alt="">
-    <ul>
+    <ul data-fr>
     <li><a href="index copy.html">Conseil</a></li>
     <li><a href="index.html">Acceuil</a></li>
     <li><a href="arabic">عربي</a><i class="fas fa-globe header__logo"></i></li>
     </ul>
+    <ul data-ar >
+        <li><a href="index copy.html">نصائح</a></li>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li ><a href="arabic">FRAN</a><i class="fas fa-globe header__logo"></i></li>
+        </ul>
     </div>
+    
     <div class="header__barre">
     <h3>LA DERNIERE INFO MEDICALE </h3>
     <p class="header__color">La prise d'anti-inflammatoires (ibuprofène, cortisone ...) pourrait être un facteur <br> d'aggravation de l’infection. En cas de fièvre, prenez du paracétamol.
@@ -135,5 +154,7 @@
 
 </footer>
 </section>
+
+
 </body>
 </html>
