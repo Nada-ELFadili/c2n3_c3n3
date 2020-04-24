@@ -405,6 +405,13 @@ body {
     padding-bottom: 80px;
     margin: 10px auto 20px auto;
     width: 84vw; }
+    .préambul__contenu .préambul__deco {
+      border-bottom: 2px solid #F4CF1B;
+      width: 20vw;
+      margin: 10px auto; }
+    .préambul__contenu .préambul__paragraph {
+      margin: auto;
+      width: 70vw; }
   .préambul .préambul__article {
     margin: auto;
     width: 72vw; }
@@ -417,3 +424,47 @@ body {
     padding: 10px 84px;
     background-color: #1078AD;
     border-radius: 4px; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: 'Cairo', sans-serif; }
+
+* {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Cairo', sans-serif; }
+
+.test1__Quest1 {
+  margin: auto;
+  font-size: 1.2em;
+  text-align: left;
+  width: 42vw;
+  margin-bottom: 30px;
+  color: #787878; }
+  .test1__Quest1 .test1__info {
+    background-color: #F4CF1B;
+    color: black; }
+
+.test1__contenu {
+  text-align: left;
+  width: 65vw;
+  margin: auto; }
+  .test1__contenu .test1__info {
+    background-color: #F4CF1B;
+    color: black;
+    padding: 20px 10px;
+    border-radius: 6px; }
+
+.test1__nextquest {
+  background-color: #1078AD;
+  color: white;
+  padding: 10px 44px;
+  text-decoration: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px; }

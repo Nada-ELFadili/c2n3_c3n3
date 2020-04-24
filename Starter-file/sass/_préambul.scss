@@ -21,6 +21,7 @@ font-family: 'Cairo', sans-serif;
 text-align: center;
 margin-top: 5%;
 
+        
 
 &__contenu{
 
@@ -30,20 +31,47 @@ padding-bottom: 80px;
 margin: 10px auto 20px auto;
 width: 84vw;
 
+
+      .préambul__deco{
+
+    border-bottom: 2px solid #F4CF1B;
+    width: 20vw;
+    margin: 10px auto;
+    
+    
+          }
+            .préambul__paragraph{
+         
+             margin: auto;
+             width: 70vw;
+
 }
+
+
+     
+
+
+
+}
+
+
 .préambul__article{
 
     margin: auto;
     width: 72vw;
     
-    
 
+    
     }
     .préambule__title{
         margin: 0;
         color:#1078AD ;
         
         }
+
+
+
+
         &__link {
             text-decoration: none;
             color: rgb(253, 253, 251);
@@ -53,8 +81,7 @@ width: 84vw;
         }
    
 
-
-
+     
 
 
 
