@@ -1,0 +1,31 @@
+$firstColor:#1078AD;
+$goldColor:#F4CF1B;
+$whiteColor:white;
+$blackColor:black;
+$Therd-color:#96C5DC;
+$Fourth-color:rgb(131, 128, 128);
+$Fifth-color:#369D53;
+$sizeFont: 30px;
+@mixin flexBox {
+    display: flex;
+    justify-content: space-between;
+}
+@mixin button {
+    padding: 0px 15px;
+    border: 1.5px solid rgba($color: $blackColor, $alpha: .4);
+    border-radius: 5px;
+    i{
+        color: $goldColor;
+        font-size: 20px;
+    }
+    
+}
+
+*{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Cairo', sans-serif;
+    
+
+}

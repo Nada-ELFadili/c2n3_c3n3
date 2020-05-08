@@ -1,94 +1,247 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Starter-file/dist/css/style.css">
     <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
-    
+    <script src="../c2n3_c3n3/Starter-file/dist/js/script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <section class="ErrorPage">
-   <header class="header">
-   <nav>
-   <div class="header__nav">
-       <img src="../../Design/Assets/png/logo__sante-1.png" alt="">
-    <ul>
-    <li><a href="conseil.html">Conseil</a></li>
-    <li><a href="index.html">Acceuil</a></li>
-    <li><a href="arabic">عربي</a><i class="fas fa-globe header__logo"></i></li>
-    </ul>
-    </div>
-</nav>
+                        
+                    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
+                      
+
+                    <section class="ErrorPage">
+                <header class="header">
+                <nav>
+                <div class="header__nav">
+                    <img src="../../Design/Assets/png/logo__sante-1.png" alt="">
+                    <ul>
+                    <li><a href="conseil.html">Conseil</a></li>
+                    <li><a href="index.html">Acceuil</a></li>
+                    <li><a href="arabic">عربي</a><i class="fas fa-globe header__logo"></i></li>
+                    </ul>
+                    </div>
+                </nav>
+
+                </section>
+                </header>
+                
+              <!------------------------------------------------TEST----------------------------------------------------------->
+
+
+
+
+                <section class="test">
+                  <div class="container" id="stepper">
+                      <div class="progress-bar" id="progress-bar">
+                        <span class="big-circle add_main_color" id="sp1"><i class="circle add_warning_color" id="c1"></i></span>
+                        <div class="line"><span class="big-circle second-circle-container" id="sp2"><i class="circle second-circle" id="c2"></i></span></div>
+                        <span class="big-circle" id="sp3"><i class="circle" id="c3"></i></span>
+                      </div>
+                      <div class="progress-bar-description">
+                        <p class="progress-bar-description--first">Informations</p>
+                        <p class="progress-bar-description--second">Questionnaire</p>
+                        <p class="progress-bar-description--third">Résultats</p>
+                      </div>                     
+              </div>
+                  <div class="test__info">
+                      <h3 data-fr>Préambule</h3>
+                      <p class="test__info--modif1" data-fr>« L’application est fournie à titre gratuit, en l’état, uniquement à des fins d’information pour contribuer à fluidifier la prise en charge des personnes par les services d’urgences pendant l’épidémie de Coronavirus COVID-19. L’exhaustivité, l’exactitude, le caractère à jour des informations et contenus mis à disposition dans cette application, ou leur adéquation à des finalités particulières, ne sont pas garantis.</p>
+                      <hr data-fr>
+                      <p class="test__info--modif2" data-fr> L’utilisation de l’application et de son contenu ne remplace en aucun cas le conseil nécessaire donné par votre médecin ou votre pharmacien ou tout autre professionnel de santé compétent dans chaque cas particulier. Tout examen ou décision de l’utilisateur doit être réalisé ou prise de manière autonome sur la base de l’information scientifique et clinique pertinente, de la notice officielle du produit concerné le cas échéant et en cas de doute, en consultant un médecin compétent. </p>
+                  
+                      <h3 data-ar>تمهيد</h3>
+                      <p class="test__info--modif1" data-ar>هاد التطبيق مجاني، درناه باش نسهلو على الناس لي عندها إصابة بڤيروس كورونا19 يعرفو الحالة ديالهم و آش خصهم يديرو. منقدوش نضمنو بنسبة 100% دقة المعلومات لي تيعطيها هاد التطبيق. يقر المستخدم بأن التطبيق
+                           ، بما في ذلك الاختبار والمعلومات الأخرى لي فيه، لا تشكل توصية او فحص او وصفة طبية او اي حاجة عندها طبيعة طبية. </p>
+                      <hr data-ar>
+                      <p class="test__info--modif2" data-ar> هاد التطبيق متيعوضش الطبيب ديالك او الصيدلي لي يقدرو يعطيوك نصيحة أفضل. هادشي علاش قبل ما دير والو استاشر مع شي طبيب.
+                          المعلومات ديال هاد التطبيق هي المستوى الاول باش نقدو نحددو الحالات الممكنة. </p>
+                  </div>
+                  <div class="test__button">
+                     
+                          <button onclick="quesClick()" id="oneClick" class="click" data-fr>Demarer le test</button>
+                      
+                  </div>
+              </section>
+          
+          
+<!------------------------------------------------TEST----------------------------------------------------------->
+
+                <section class="question">
+                  <div class="container" id="stepper">
+                      <div class="progress-bar" id="progress-bar">
+                        <span class="big-circle " id="sp1"><i class="circle add_warning_color" id="c1"></i></span>
+                        <div class="line"><span class="big-circle second-circle-container add_main_color" id="sp2"><i class="circle second-circle add_warning_color" id="c2"></i></span></div>
+                        <span class="big-circle" id="sp3"><i class="circle" id="c3"></i></span>
+                      </div>
+                      <div class="progress-bar-description">
+                        <p class="progress-bar-description--first">Informations</p>
+                        <p class="progress-bar-description--second">Questionnaire</p>
+                        <p class="progress-bar-description--third">Résultats</p>
+                      </div>                     
+              </div>
+                  <div class="container" id="progre">
+                      <div class="show-progress">
+                          <div class="progress-indicateur" id="currentIndice" style="width: 4.34783%;">
+                          </div>
+                      </div>
+                      <span id="indice">1</span>
+                      <span>/23</span>
+                  </div>
+                  <div class="createElement">
+                     <h2 class="change"></h2>
+                     <div class="form">
+                      
+                     </div>
+                      
+                  </div>
+                  
+                      <div class="question__button">
+                          <button  class="click2">question suivante</button>
+                          <button  class="click4" >submit</button>
+                          <button  class="click3" >question précident</button>
+                      </div>
+                  
+                 
+                  <div class="question__info">
+                      <h5 data-fr>Anti-inflammatoires non stéroïdiens</h5>
+                      <p data-fr>La prise d'anti-inflammatoires (ibuprofène, cortisone ...) <br>
+                          pourrait être un facteur d'aggravation de l’infection. <br>
+                          En cas de fièvre,  prenez du paracétamol. <br>
+                          Cette remarque concerte les traitements par gélules ou comprimés et ne concerne pas les formes inhalées. <br>
+                          Si vous êtes déjà sous traitement, n'arrêtez pas ce traitement, <br>
+                          demandez l'avis de votre médecin ou de votre pharmacien. </p>
+                      <h5 data-ar>الأدوية المضادة للالتهابات</h5>
+                      <p data-ar>الأدوية المضادة للالتهابات (الإيبوبروفين والكورتيزون ...)<br>
+                          تقد تزيد من الحالة ديال العدوى، إلا فيك السخانة خود الباراسيتامول،<br>
+                          و إلى كنتي تتاخد الادوية المضادة للإلتها  <br>
+                          بات ولا عندك الشك ضروري تشوف الطبيب ديالك  </p>
+                  </div>
+                  
+              </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!------------------------------------------RECOMMANDATION ------------------------------------------------->
+        <section class="recommand">
+               
+            <h1>Recommandations officielles</h1>
+            <div class="recommand__covid">
+            <div class="recommand__text">
+            <h3>Si vous pensez être malade,</h3>
+            <h4>évitez les endroits publics. 
+                Ne rendez pas visite aux personnes fragiles. <br>
+                Évitez de sortir de chez vous. <br>
+                Respectez les mesures barrière (lavage de main, masque). <br>
+                Surveillez vos symptômes, l’évolution de votre température <br>
+                corporelle et recherchez un avis médical.</h4>
+                </div> 
+                <div class="recommand__contact">
+                    <h2>Apple Gratuit</h2>
+                    <button>080 100 47 47</button> <br>
+                    <a href="https://www.sante.gov.ma/Pages/Accueil.aspx">www.sante.gov.ma</a> 
+                </div> 
+            </div>
+        <div class="recommand__part">
+            <h2> Vous pensez avoir été exposé au Coronavirus COVID-19 et avez des symptômes ? </h2>
+            <div class="recommand__icone">
+            
+            <img  src="Design/Assets/png/yellow face.png" alt="icon" >
+            
+          </div>
+            <div>
+                <a class="button" href="test1.html">Demarer le test</a>
+            </div>
+        </div>
 </section>
-</header>
+                        <!-----------------------------------------------HERO__FOOTER------------------------------------------------------------------>
+                        <section class="HeroFooter">
+                        <footer class="footer">
+                            <img src="../../Design/Assets/png/logo__sante-17.png" alt="">
+                            <div class="footer__all">
+                                <div class="footer__left">
+                                <ul>
+                                <li class="footer__left1"> FRAN <i class="fas fa-globe footer__glob"></i></li>
+                                <li class="footer__left2"> <a href="index.html"> Acceuil</a></li>
+                                <li class="footer__left3"> <a href="conseil.html"> Conseil</a></li>
+                                </ul>
+                                </div>
+                                <div class="footer__bottom">
+                                <h2>Contacts utiles</h2>
+                                <p>Chiffre économique "Alo épidémie vigilance"</p>
+                                <h4>080 100 47 47</h4>
+                                <p>Aide médicale urgente</p>
+                                <h4>114</h4>
+                                </div>
+                                <p>
+                                        Algorithme d'orientation mis à jour sur les recommandations en vigueur
+                                        au 22/03/2020 à 16h15. Ce site d’information n’est pas un dispositif médical,
+                                        il ne délivre pas d’avis médical. Projet solidaire d'urgence,financé par l’Alliance
+                                        Digitale contre le COVID-19 : @maladiecovid19
+                                </p>
+                                </div>
+                                </div>
 
 
-<div class="test1__Quest1">
-    <p class="test__paragraphe">Ces dernières 48 heures, quelle a été votre température la plus élevée ?</p>
-     <form class="test1__form">
-     <input type="radio" > 
-     <label > Oui</label> <br>
-     <input type="radio">
-     <label >Non</label> 
-    </form>
-</div>
-<div class="test1__contenu">
-    <p class="test1__info">
-        Anti-inflammatoires (ibuprofène, cortisone ...)
-        Vous pouvez augmenter l'état de l'infection, sauf dans le radiateur.
-        Et pour vous, vous prenez des médicaments anti-alot
-        Vous avez aucun doute, il est nécessaire de consulter votre médecin .
-    </p>
-    <button  class="test1__nextquest"  > <a href="index copy 404page.html"> La question Suivante</a></button>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="HeroFooter">
-<footer class="footer">
-    <img src="../../Design/Assets/png/logo__sante-17.png" alt="">
-    <div class="footer__all">
-        <div class="footer__left">
-        <ul>
-        <li class="footer__left1"> FRAN <i class="fas fa-globe footer__glob"></i></li>
-        <li class="footer__left2"> <a href="index.html"> Acceuil</a></li>
-        <li class="footer__left3"> <a href="conseil.html"> Conseil</a></li>
-        </ul>
-        </div>
-        <div class="footer__bottom">
-        <h2>Contacts utiles</h2>
-        <p>Chiffre économique "Alo épidémie vigilance"</p>
-        <h4>080 100 47 47</h4>
-        <p>Aide médicale urgente</p>
-        <h4>114</h4>
-        </div>
-        <p>
-                Algorithme d'orientation mis à jour sur les recommandations en vigueur
-                au 22/03/2020 à 16h15. Ce site d’information n’est pas un dispositif médical,
-                il ne délivre pas d’avis médical. Projet solidaire d'urgence,financé par l’Alliance
-                Digitale contre le COVID-19 : @maladiecovid19
-        </p>
-        </div>
-        </div>
-
-
-</footer>
-</section>
-</body>
-</html>
+                        </footer>
+                        </section>
+                        </body>
+                        </html>
