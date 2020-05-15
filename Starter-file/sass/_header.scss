@@ -138,17 +138,24 @@ img{
             display: inline-block;
             font-size: 20px;
             margin: 14px 5px;
-            border-radius: 5px
-            
+            border-radius: 5px;
 
+           
+
+             }
+        }
+     
+        @media (max-width:700px) {
+            width:  50%;
+            margin: auto;
+            padding : 6px 50px;
+        }
+        @media (max-width:375px) {
+            font-size: 14px;
         }
     }
-     
-     
-}
   
-
- 
+   
 
 }
 

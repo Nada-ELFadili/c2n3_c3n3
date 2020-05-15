@@ -1,3 +1,4 @@
+
 const questionsList = [
     {
         titels: `Quel est votre âge ? 
@@ -459,73 +460,187 @@ const questionsList = [
 
             let currentQuestion = 0;
          
-            let préambul = document.querySelector('.click');
+            let préambul = document.querySelector('#oneClick');
             let next = document.querySelector('.click2');
             let précedent = document.querySelector('.click3');
-           
             let qst = document.querySelector('.question');
+            let pré = document.querySelector('.test__info');
             let test = document.querySelector('.test');
             let info = document.querySelector('.question_info');
-
             let check = document.getElementsByName('check');
             let Qst = document.querySelector('.change');
-
             let form = document.querySelector('.form');
-            
             let answers=[];
-            function changeQuestion(conteur){
+
+                 function changeQuestion(conteur){
 
                 let firstqst = questionsList.find((now) =>{
                     return now.number == conteur;
+                    
                 });
 
-             Qst.textContent = firstqst.titels;
-             form.innerHTML = firstqst.choices ;
+                     Qst.textContent = firstqst.titels;
+                     form.innerHTML = firstqst.choices ;
 
 
-            }
+                }
+
+                préambul.onclick = function quesClick() {
+                     test.remove(test);
+                currentQuestion += 1;
+                qst.style.display ="block";
+                changeQuestion(currentQuestion);
+
+                    } ;
+
+                    next.addEventListener('click' , () => {
+
+                        const detail = document.querySelector('#numerique');
+                        let inputs = document.querySelector('input');
+                    
+                        if (inputs.id === 'numerique'){
+                            answers.push(detail.value);
+                            if(detail.value === ""){
+                                alert("Please Choose An Option 😲");
+                                return;
+                            }
+                        }
+                        else if(questionsList[currentQuestion -1].type === 1 ) {
+                            var valeur = document.querySelector('input[name=check]:checked');
+                           
+                            if(valeur === null){
+                                alert("Please Choose An Option 😲");
+                                return;
+                            }
+                            else {
+                                answers.push(valeur.value);
+                            }
+                        }
+                       
+                        currentQuestion += 1;
+                        if(currentQuestion >1){
+
+                            précedent.style.display = "block";
+
+                        }
+                            changeQuestion(currentQuestion);
+                            updateProgress(currentQuestion);
+                            console.log( answers);
+                        
+                            // console.log(conteur);
+                            
+                        
+                        
+                     });
+                    
+                    précedent.addEventListener('click' , () => {
+                        currentQuestion -= 1;
+                        answers.pop();
+                        changeQuestion(currentQuestion);
+                        updateProgress(currentQuestion);
+                        
+                    
+                    });
+                    
+                    function updateProgress(num) {
+                        const initial_width = 100 / 22;
+                        const progressInd = document.getElementById("currentIndice");
+                        const indice = document.getElementById("indice");
+                    
+                        progressInd.style.width = (num -1) * initial_width + "%";
+                        indice.innerText = num ;
+                      }
+
+
+
+
+
+                      
+
+                      function facteurGraviteMajeur(geneRespira, difficultéAlimentation, fievre) {
+                        var calculFacteurGraviteMajeur = 0;
+                        if (geneRespira == 'oui') {
+                            calculFacteurGraviteMajeur++;
+                        }
+                        if (difficultéAlimentation == 'oui') {
+                            calculFacteurGraviteMajeur++;
+                        }
+                        if (fievre <= 35.4) {
+                            calculFacteurGraviteMajeur++;
+                        }
+                        return calculFacteurGraviteMajeur;
+                    }
 
 
 
 
 
 
-            
-           //  info.style.display = "none";
-           // btnPrevious.style.display = "none";
+
+
+                //button.onclick  = function quesClick(){
+                    // test.remove (test);
+                   //  question.style.display =" block";
+           //btnPrevious.style.display = "none";
            // btnNext.style.display = "none";
 
-            // function bar(progression) {
-            //     progress.firstElementChild.style.width = `${100/23*progression}%`;
+                //function startTest() {
+                      //currentQuestion = 0;
+                       //preambule.style.display = "none";
+                      // loadQuestion(0);
+                     
+                    //  }
+
+               //ques.textContent = currentQuestion.text;
+                //form.innerHTML = currentQuestion.choices;
+            
+            //};
+
+               // button.addEventListener("click", function(){
+                    //test.style.display = "none";
+                   // question.style.display =" block";
+                   
+                    
+
+//  button.onclick  = function quesClick(){
+                   // test.remove (test);
+                  //  question.style.display =" block";
+          //btnPrevious.style.display = "none";
+          // btnNext.style.display = "none";
+
+
+
+           // function bar(progression) {
+            //  progress.firstElementChild.style.width = `${100/23*progression}%`;
             //     progress.firstElementChild.style.backgroundColor = 'blue';
             // } 
 
-          //  function retrieveAnswer(name) {
-           //     return document.querySelector("input[name=" + name + "]:checked");
-           // }
-
-
-
-           // function loadQuestion (questionIndex) {
-           // let q = questions[questionIndex];
-          //  qst.textContent = q.question;
-          //  form.innerHTML = q.input;
-
+           // function retrieveAnswer(name) {
+            //    return document.querySelector("input[name=" + name + "]:checked");
           //  }
 
 
 
-          //  function startTest() {
-          //  currentQuestion = 0;
-          //  preambule.style.display = "none";
-          //  loadQuestion(0);
+          //  function loadQuestion (questionIndex) {
+         //   let q = questions[questionIndex];
+         //  qst.textContent = q.question;
+          //  form.innerHTML = q.input;
+//
+          //  }
+
+
+
+         //   function startTest() {
+         //   currentQuestion = 0;
+         //   preambule.style.display = "none";
+         //   loadQuestion(0);
          //   btnNext.style.display = "";
-         //   btnPrevious.style.display = "none";
+        //   btnPrevious.style.display = "none";
          //   qst.style.display = "";
          //   form.style.display = "";
          //   btnNext.textContent = " la question suivante";
          //   info.style.display = "block" ;
-         //   }
+        //    }
 
          //   function loadNextQuestion() {
 
@@ -569,4 +684,5 @@ const questionsList = [
             //    }
              //    loadQuestion(currentQuestion);
              //    bar(currentQuestion);
-           //  }
+           //  
+        

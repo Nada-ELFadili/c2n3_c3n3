@@ -97,6 +97,14 @@ body {
       font-size: 20px;
       margin: 14px 5px;
       border-radius: 5px; }
+  @media (max-width: 700px) {
+    .header__part {
+      width: 50%;
+      margin: auto;
+      padding: 6px 50px; } }
+  @media (max-width: 375px) {
+    .header__part {
+      font-size: 14px; } }
 
 body {
   margin: 0px;
@@ -451,7 +459,8 @@ body {
     width: 85%;
     margin: auto;
     text-align: center;
-    background: #96C5DC; }
+    background: #96C5DC;
+    display: block; }
     .test__info h3 {
       padding-top: 10px;
       color: #1078AD; }
