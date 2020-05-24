@@ -288,7 +288,7 @@
         } else if (questions[currentQuestion].type === 1) {
             var valeur = document.querySelector('input[name=qst]:checked');
             if (valeur === null) {
-                alert("please enter your answer");
+                alert("please enter your answer 😲 ");
                 return;
             } else {
                 answers.push(valeur.value);
