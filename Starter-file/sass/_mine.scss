@@ -1,12 +1,3 @@
-$firstColor:#1078AD;
-$goldColor:#F4CF1B;
-$whiteColor:white;
-$blackColor:black;
-$Therd-color:#96C5DC;
-$Fourth-color:rgb(131, 128, 128);
-$Fifth-color:#369D53;
-$sizeFont: 30px;
-
 $first-color: #F4CF1B;
 $second-color: hsl(200,91,68);
 $third-color:#7F7F7F;
@@ -18,6 +9,11 @@ $eighth-color:#1078AD;
 $ninth-color: #96C5DC; 
 $tenth-color: #1A519E ;
 $eleventh-color: #787878;
+
+
+
+$sizeFont: 30px;
+
 
 @mixin flexBox {
     display: flex;
