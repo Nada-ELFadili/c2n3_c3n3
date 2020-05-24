@@ -213,7 +213,6 @@
         ];
         
         let currentQuestion = 0;
-        
         let progress = document.querySelector("#progress");
         const preambule = document.querySelector("#preambule");
         const start = document.querySelector("#start");
@@ -226,8 +225,6 @@
         let resultBtn = document.querySelector("#result__btn");
         const totalQuestions = questions.length;
         let answers = [];
-        
-        
         
         
         
@@ -260,10 +257,7 @@
         
         
         
-        
-        
-        
-        // starting the test
+        // START THE TEST ///////////////////////////
         
         function startTest() {
         currentQuestion = 0;
@@ -279,7 +273,7 @@
         }
         
         
-        // loading the next question 
+        // loading the next question /////////////////////////
         
         function loadNextQuestion() {
         
@@ -328,7 +322,7 @@
         }
         
         
-        // loading the previous question
+        // loading the previous question/////////////////
         
         function loadPreviousQuestion() {
         currentQuestion--;
@@ -341,7 +335,7 @@
         answers.pop();
         }
         
-        // restart the test 
+        // restart the test ///////////////////////////////////
         
         function restartTest () {
         resultBtn.style.display = "none";
@@ -352,7 +346,7 @@
         
         }
         
-        // facteur pronostique 
+        // facteur pronostique ///////////////////////
         
         function facteurPronostique(age, hypertensionCardio, diabetique, cancer, maladieRespir, insuffisanceRenale, maladieFoie, enceinte, defenseImmuno, traitementImmuno) {
         var calculFacteurPronostique = 0
@@ -391,7 +385,7 @@
         
         }
         
-        // facteur de gravité mineur
+        // facteur de gravité mineur/////////////////////////////
         
         function facteurGraviteMineur(fievre, fatigue, malaise) {
         var calculFacteurGraviteMineur = 0;
@@ -407,7 +401,7 @@
         return calculFacteurGraviteMineur;
         }
         
-        // facteur de gravité majeur
+        // facteur de gravité majeur////////////////////////////////////
         
         function facteurGraviteMajeur(geneRespira, difficultéAlimentation, fievre) {
         var calculFacteurGraviteMajeur = 0;
@@ -430,8 +424,7 @@
         var pronostique = facteurPronostique(answers[12], answers[14], answers[15], answers[16], answers[9], answers[18], answers[19], answers[20], answers[21], answers[22]);
         var mineur = facteurGraviteMineur(answers[1], answers[7], answers[10]);
         var majeur = facteurGraviteMajeur(answers[9], answers[8], answers[1]);
-        
-        
+    
         var toux = answers[2];
         var gorge = answers[4];
         var courbature = answers[3];
@@ -507,7 +500,7 @@
             result.style.display = "block";
             resultBtn.style.display = "block";
         }
-        if (((mineur >= 1) || (majeur >= 1)) || (pronostique == 1)) { 
+        if (((mineur >= 1) || (majeur >= 1)) || (pronostique == 1)) {
             result.innerHTML = "<p> Votre situation ne relève probablement pas du Covid-19. Un avis médical est recommandé. Au moindre doute, appelez le 141. </p>";
             result.style.display = "block";
             resultBtn.style.display = "block";
@@ -519,7 +512,7 @@
         }
         }
         
-        
+        //////////////////////////////////////////////////////////////////////////////////////
         
         
         
