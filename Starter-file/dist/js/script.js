@@ -1,220 +1,6 @@
 
 
-                    
-                    //Patient avec fièvre, ou toux + mal de gorge, ou toux + courbatures ou fièvre + diarrhée :
-                    //Tout patient avec un facteur pronostique ou plus: Un seul facteur de gravité mineur :  
-                    
-                //    if (((answers[1] === "oui" || answers[3] === "oui") && (answers[5] === "oui" || answers[3] === "oui") && (answers[4] === "oui" || answers[1] === "oui") && answers[6] === "oui") && (answers[14] === "oui" || answers[15] === "oui" || answers[16] === "oui" || answers[17] === "oui" || answers[18] === "oui" || answers[19] === "oui" ||answers[20] === "oui"  || answers[21] === "oui" || answers[22] === "oui") && (answers[2] >= 39 || answers[7] === "oui" || answers[10] === "Trop fatigué" || answers[10] === "Fatigué" )){
-                    
-                 //   repFin.innerText = "Vous pouvez faire une téléconsultation ou médecin généraliste ou visite à domi" +
-                 //   "cile. Appelez le 141 si une gêne respiratoire ou des difficultés importantes p" +
-               //     "our s’alimenter ou boire pendant plus de 24h apparaissent.";
-                    
-              //      }
-              //      
-                    
-                    //Patient avec fièvre, ou toux + mal de gorge, ou toux + courbatures ou fièvre + diarrhée :
-                    //Tout patient avec un facteur pronostique ou plus: deux facteurs de gravité mineurs :
-                    
-               //     if (((answers[1] === "oui" || answers[3] === "oui") && (answers[5] === "oui" || answers[3] === "oui") && (answers[4] === "oui" || answers[1] === "oui") && answers[6] === "oui") && (answers[14] === "oui" || answers[15] === "oui" || answers[16] === "oui" || answers[17] === "oui" || answers[18] === "oui" || answers[19] === "oui" ||answers[20] === "oui"  || answers[21] === "oui" || answers[22] === "oui") && ((answers[2] >= 39 && answers[7] === "oui") || (answers[2] >= 39 && answers[10] === "Fatigué") || (answers[2] >= 39 && answers[10] === "Trop fatigué") || (answers[7] === "oui" && answers[10] === "Fatigué") || (answers[7] === "oui" && answers[10] === "Trop fatigué"))){
-                    
-               //         repFin.innerText = "Appelez le 141";
-                    
-                    
-              //      }
-                    
-                    
-                    //Tout patient avec fièvre et toux :
-                    //Tout patient sans facteur pronostique :
-                    //Sans facteur de gravité ou au moins 1 facteur de gravité mineur sans facteur de gravité majeur:
-                    
-               //     if (((answers[1] === "oui" && answers[3] === "oui") && (answers[14] === "non" && answers[15] === "non" && answers[16] === "non" && answers[17] === "non" && answers[18] === "non" && answers[19] === "non" && ( answers[20] === "non" || answers[20] === "Homme" ) && answers[21] === "non" && answers[22] === "non")) && (answers[7] === "non" && answers[8] === "non" && values[17] === "non" && answers[10] === "Moyen" && answers[10] === "Bien") || ((answers[2] >= 39 || answers[7] === "oui" || answers[10] === "Trop fatigué" || answers[10] === "Fatigué") && answers[2] <= 35,4 && answers[17] === "non" && answers[8] === "non")) {
-                    
-               //     repFin.innerText = "Vous pouvez faire une téléconsultation ou médecin généraliste ou visite à domi" +
-               //     "cile. Appelez le 141 si une gêne respiratoire ou des difficultés importantes p" +
-               //     "our s’alimenter ou boire pendant plus de 24h apparaissent."
-                    
-                //    }
-                    
-                    //Tout patient avec fièvre et toux :
-                    //Tout patient avec un facteur pronostique ou plus :
-                    //Aucun facteur de gravité:
-                    
-               //     if ((answers[1] === "oui" && answers[3] === "oui") && (answers[14] === "oui" || answers[15] === "oui" || answers[16] === "oui" || answers[17] === "oui" || answers[18] === "oui" || answers[19] === "oui" ||answers[20] === "oui"  || answers[21] === "oui" || answers[22] === "oui") && answers[7] === "non" && answers[8] === "non" && answers[17] === "non" && answers[10] === "Moyen" && answers[10] === "Bien") {
-                    
-               //     repFin.innerText = "Vous pouvez faire une téléconsultation ou médecin généraliste ou visite à domi" +
-                //    "cile. Appelez le 141 si une gêne respiratoire ou des difficultés importantes p" +
-                //    "our s’alimenter ou boire pendant plus de 24h apparaissent."
-                 //   
-                    
-                 //   }
-                    
-                    //Tout patient avec fièvre et toux :
-                    //Tout patient avec un facteur pronostique ou plus :
-                    //Un seul facteur de gravité mineur:
-                    
-               //     if ((answers[1] === "oui" && answers[3] === "oui") && (answers[14] === "oui" || answers[15] === "oui" || answers[16] === "oui" || answers[17] === "oui" || answers[18] === "oui" || answers[19] === "oui" ||answers[20] === "oui"  || answers[21] === "oui" || answers[22] === "oui") && (answers[2] >= 39 || answers[7] === "oui" || answers[10] === "Trop fatigué" || answers[10] === "Fatigué")) {
-                    
-               //     repFin.innerText = "Vous pouvez faire une téléconsultation ou médecin généraliste ou visite à domi" +
-               //     "cile. Appelez le 141 si une gêne respiratoire ou des difficultés importantes p" +
-                //    "our s’alimenter ou boire pendant plus de 24h apparaissent."
-                    
-                 //   }
-                    
-                    //Tout patient avec fièvre et toux :
-                    //Tout patient avec un facteur pronostique ou plus :
-                    //Au moins deux facteurs de gravité mineurs:
-                    
-                 //   if (((answers[1] === "oui" && answers[3] === "oui") && (answers[14] === "oui" || answers[15] === "oui" || answers[16] === "oui" || answers[17] === "oui" || answers[18] === "oui" || answers[19] === "oui" ||answers[20] === "oui"  || answers[21] === "oui" || answers[22] === "oui")) && ((values[2] >= 39 && values[7] === "oui") || (values[2] >= 39 && values[10] === "Fatigué") || (values[2] >= 39 && values[10] === "Trop fatigué") || (values[7] === "oui" && values[10] === "Fatigué") || (values[7] === "oui" && values[10] === "Trop fatigué"))) {
-                    
-                  //  repFin.innerText = "Appelez le 141"
-                    
-                 //   }
-                    
-                    //Tout patient avec un seul symptôme parmi fièvre, toux, mal de gorge, courbatures :
-                    //Pas de facteur de gravité:
-                    
-                 //   if ((answers[1] === "oui" ||answers[3] === "oui"  || answers[5] === "oui" || answers[4] === "oui") &&(answers[7] === "non" && answers[8] === "non" && answers[17] === "non" && answers[10] === "Moyen" && answers[10] === "Bien")){
-                    
-                 //   repFin.innerText = 'Votre situation ne relève probablement pas du Covid-19.' +
-                 //   'Consultez votre médecin au moindre doute.'
-                    
-                    
-                    
-                    
-                    //Tout patient avec un seul symptôme parmi fièvre, toux, mal de gorge, courbatures :
-                    //Au moins un facteur de gravité ou un facteur pronostique:
-                    
-                  //  if ((answers[1] === "oui" ||answers[3] === "oui"  || answers[5] === "oui" || answers[4] === "oui") && ((answers[14] === "oui" || answers[15] === "oui" || answers[16] === "oui" || answers[17] === "oui" || answers[18] === "oui" || answers[19] === "oui" ||answers[20] === "oui"  || answers[21] === "oui" || answers[22] === "oui") || (answers[7] === "oui" && answers[8] === "oui" && answers[17] === "oui" && answers[10] === "Trop fatigué" && answers[10] === "Fatigué" ) )) {
-                    
-                 //   repFin.innerText = 'Votre situation ne relève probablement pas du Covid-19.' +
-                 //   'Un avis médical est recommandé. Au moindre doute, appelez le 141.'
-                    
-                  //  }
-                    
-                    
-                    // Tout patient avec aucun symptôme :
-                    
-               //     if ((answers[1] === "non") && (answers[3] === "non") && (answers[4] === "non") && (answers[5] === "non") && (answers[6] === "non")){
-                    
-                ///    repFin.innerText = 'Votre situation ne relève probablement pas du Covid-19.' +
-                //    'N’hésitez pas à contacter votre médecin en cas de doute.' + 'Vous pouvez refaire le test en cas de nouveau symptôme pour réévaluer la situation.' + 'Pour toute information concernant le Covid-19 allez vers la page d’accueil.'
-                    
-               //     }
-                    
-                    
-                    
-
-
-                    
-                    
-                //button.onclick  = function quesClick(){
-                    // test.remove (test);
-                   //  question.style.display =" block";
-           //btnPrevious.style.display = "none";
-           // btnNext.style.display = "none";
-
-                //function startTest() {
-                      //currentQuestion = 0;
-                       //preambule.style.display = "none";
-                      // loadQuestion(0);
-                     
-                    //  }
-
-               //ques.textContent = currentQuestion.text;
-                //form.innerHTML = currentQuestion.choices;
-            
-            //};
-
-               // button.addEventListener("click", function(){
-                    //test.style.display = "none";
-                   // question.style.display =" block";
-                   
-                    
-
-//  button.onclick  = function quesClick(){
-                   // test.remove (test);
-                  //  question.style.display =" block";
-          //btnPrevious.style.display = "none";
-          // btnNext.style.display = "none";
-
-
-
-           // function bar(progression) {
-            //  progress.firstElementChild.style.width = `${100/23*progression}%`;
-            //     progress.firstElementChild.style.backgroundColor = 'blue';
-            // } 
-
-           // function retrieveAnswer(name) {
-            //    return document.querySelector("input[name=" + name + "]:checked");
-          //  }
-
-
-
-          //  function loadQuestion (questionIndex) {
-         //   let q = questions[questionIndex];
-         //  qst.textContent = q.question;
-          //  form.innerHTML = q.input;
-//
-          //  }
-
-
-
-         //   function startTest() {
-         //   currentQuestion = 0;
-         //   preambule.style.display = "none";
-         //   loadQuestion(0);
-         //   btnNext.style.display = "";
-        //   btnPrevious.style.display = "none";
-         //   qst.style.display = "";
-         //   form.style.display = "";
-         //   btnNext.textContent = " la question suivante";
-         //   info.style.display = "block" ;
-        //    }
-
-         //   function loadNextQuestion() {
-
-            
-         //   var q = questions[currentQuestion];
-            //    if(retrieveAnswer(q.name) == null) {
-            //     alert("please enter your answer");
-            //     return;
-            //    } else {
-            //      answers.push(retrieveAnswer(q.name).value == "true");
-            //      console.log(answers);
-            //    }
-
-            //    currentQuestion++;
-           //     btnPrevious.style.display = "block";  //ou bien = "" pour annuler le display none
-            //    info.style.display = "none" ;
-            //    if (currentQuestion == totalQuestions - 1) {
-            //    btnNext.textContent = "terminer";
-             //       } 
-            //    if (currentQuestion == totalQuestions) {
-            //    preambule.style.display = "block";
-             //   qst.style.display = "none";
-             //   form.style.display = "none";
-             //   btnNext.style.display = "none";
-              //  btnPrevious.style.display = "none";
-              //  } 
-              //  else {
-              //  loadQuestion(currentQuestion);
-                //    }
-            
-            
-          //  }
-
-
-        //    function loadPreviousQuestion() {
-          //      currentQuestion--;
-          //      btnNext.textContent = " la question suivante";
-           //     if (currentQuestion == 0) {
-            //    btnPrevious.style.display = "none";
-            //    info.style.display = "block" ;
-            //    }
-             //    loadQuestion(currentQuestion);
-             //    bar(currentQuestion);
-           //  
+        
            const questions = [{ // 0
             question: `Pensez-vous avoir eu de la fièvre ces derniers jours (frissons, sueurs) ?`,
             input: `<input type="radio" name="qst" value="oui">
@@ -424,11 +210,6 @@
         },
         
         
-        
-        
-        
-        
-        
         ];
         
         let currentQuestion = 0;
@@ -455,15 +236,7 @@
         result.style.display= "none";
         resultBtn.style.display = "none";
         
-        // function bar(progression) {
-        //     progress.firstElementChild.style.width = `${100/23*progression}%`;
-        //     progress.firstElementChild.style.backgroundColor = 'blue';
-        // } 
-        
-        // function retrieveAnswer(name) {
-        //     return document.querySelector("input[name=" + name + "]:checked");
-        // }
-        
+      
         // loading questions from  the array
         
         function loadQuestion(questionIndex) {
@@ -483,20 +256,6 @@
             progressInd.style.width = (num -1) * initial_width + "%";
             indice.innerText = num ;
           }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         
         
@@ -542,14 +301,7 @@
             }
         
         }
-        //    var q = questions[currentQuestion];
-        //    if(retrieveAnswer(q.name) == null) {
-        //     alert("please enter your answer");
-        //     return;
-        //    } else {
-        //      answers.push(retrieveAnswer(q.name).value == "true");
-        //      console.log(answers);
-        //    }
+      
         
         currentQuestion++;
         btnPrevious.style.display = "block"; //ou bien = "" pour annuler le display none
@@ -677,13 +429,7 @@
         var pronostique = facteurPronostique(answers[12], answers[14], answers[15], answers[16], answers[9], answers[18], answers[19], answers[20], answers[21], answers[22]);
         var mineur = facteurGraviteMineur(answers[1], answers[7], answers[10]);
         var majeur = facteurGraviteMajeur(answers[9], answers[8], answers[1]);
-        // console.log(pronostique);
         
-        
-        
-        
-        // console.log(mineur);
-        // console.log(majeur);
         
         var toux = answers[2];
         var gorge = answers[4];
