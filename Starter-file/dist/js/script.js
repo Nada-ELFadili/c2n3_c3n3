@@ -213,7 +213,7 @@
         ];
         
         let currentQuestion = 0;
-        const totalQuestions = questions.length;
+        
         let progress = document.querySelector("#progress");
         const preambule = document.querySelector("#preambule");
         const start = document.querySelector("#start");
@@ -224,6 +224,7 @@
         const btnNext = document.querySelector("#btn-next");
         let result = document.querySelector("#result__test");
         let resultBtn = document.querySelector("#result__btn");
+        const totalQuestions = questions.length;
         let answers = [];
         
         
@@ -506,7 +507,7 @@
             result.style.display = "block";
             resultBtn.style.display = "block";
         }
-        if (((mineur >= 1) || (majeur >= 1)) || (pronostique == 1)) {
+        if (((mineur >= 1) || (majeur >= 1)) || (pronostique == 1)) { 
             result.innerHTML = "<p> Votre situation ne relève probablement pas du Covid-19. Un avis médical est recommandé. Au moindre doute, appelez le 141. </p>";
             result.style.display = "block";
             resultBtn.style.display = "block";
