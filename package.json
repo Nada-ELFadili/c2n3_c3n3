@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/Nada-ELFadili/c2n3_c3n3#readme",
   "dependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
